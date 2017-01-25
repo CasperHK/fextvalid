@@ -20,4 +20,5 @@ import (
 
 ```go
 isValidExt := fxv.isValidExt("/tmp/demo.zip", fxv.ACCEPT, []string{"zip", "7zip", "rar"})
+isValidExt := fxv.isValidExt("/tmp/demo.zip", fxv.UNACCEPT, []string{"doc", "pdf", "docx"})
 ```
